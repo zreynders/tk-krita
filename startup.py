@@ -16,6 +16,8 @@ import os
 import shutil
 import sys
 
+from functools import reduce
+
 import sgtk
 from sgtk.pipelineconfig_utils import get_sgtk_module_path
 from sgtk.platform import LaunchInformation, SoftwareLauncher, SoftwareVersion
